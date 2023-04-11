@@ -1,0 +1,59 @@
+---
+title: "Dünya Ülkelerinin Mutluluk Düzeyleri Endeksi"
+author: 
+  - Sena Nur Şeker[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 21080290, [Github Repo](https://github.com/senaseker/arasinav)
+
+
+# Giriş
+Tüm insanlığın ortak amacı olan mutluluk, farklı alanlarda farklı bilim dallarında araştırılan bir duygudur. Tüm insanlığın elde etmeye çalıştığı ancak net bir açıklaması olmayan mutluluk kavramı birçok disiplin için de var olmaktadır. Mutluluk algısı kişiden kişiye değişmekte, insanların hayat koşullarına standartlarına göre farklılık göstermektedir. İnsanoğlu geçmişten bu yana mutluluk adı altında belirli standartları yakalamaya çalışmaktadır.
+
+Mutluluk yakın geçmişe kadar psikoloji alanı altında işlenen bir konu olmuştur. Ancak görüyoruz ki mutluluk endeksi farklı bölgelerde yaşam kalitesiyle alakalı olarak değişiklik gösteriyor. Bu da bize gelir eşitsizliği,politik ortam, sosyal çevre faktörlerinin günümüzde etkisinin daha fazla olduğunu göstermektedir. Bu faktörler bazı yönleriyle olumlu bazı yönleriyle olumsuz sonuçlar doğurabilmektedir. 
+
+Mutluluğun ölçülmesine ilişkin çeşitli ölçekler,istatistikler belirli periyodlara uygun bir şekilde yayımlanmaktadır. Dünya Mutluluk Raporu son on yıldır 150’ den fazla bireylerin hayat memnuniyetini ölçüyor. Mutluluk raporu, mevcut verileri sunmuş ve ortaya çıkan mutluluk endeksleri ile ilgili kanıtları inceleyip insanların yaşam standartlarının etkilerine bakmışlardır. Katılımcılara merdiven basamağı gibi düşünecekleri bir çizelge verilmiş. Merdivenin en alt basamağı mümkün olan en kötü yaşamı değerlendirilmesi için 0’ı, en üst basamağı için mümkün olan en iyi yaşamı değerlendirilmesi için 10’u simgesel olarak kullanmaları istenmiştir. on simgelendiği belirtilmiş0 en üst basamağı 10 olacak şekilde ayarlanmış. Katılımcını şu an ki yaşamını konumlandırdığı basamak anket sonucu oluyor. Dünya Mutluluk Raporu’nda bulunan ülkeler birçok veri ve faktörden oluşmasına rağmen tek bir endekse göre sıralanır. Günümüze yakın biz zamanda ortaya çıkan yaşam değerlendirilmesi için altı değişken üzerinde çalışılıyor. Bunlar; kişi başı GSYH, doğumda beklenen yaşam süresi, cömertlik, sosyal destek, hayat hakkında seçim yapma özgürlüğü, yolsuzluk algıları. Sosyal ölçütlerin böylece mutluluk üzerinde oldukça etkili olduğunu görüyoruz. Raporlarda kulllanılan değişkenler, araştırma literatüründe ulusal düzeydeki farklılıkları açıklayan belirleyicileri yansıtmaktadır.
+
+
+## Çalışmanın Amacı
+Bu çalışmanın amacı Ülkelerin 2015-2022 yılları arasındaki mutluluk üzerinde etkisi olduğu bildiğimiz; kişi başı milli gelir ve alım gücü, sağlıklı yaşam, sosyal hayat, ileriye dönük yaşam beklentisi, güven ortamı, özgürlük vb. faktörlerin bölgesel etkenleri dahil ederek incelemek. Bu anlamda mutluluk bölgesel olarak değişiklik göstermektedir. Bu değişikliğin sebepleri verilerle ortaya koyulacaktır.
+
+## Literatür 
+Mutluluk kavramının genel iktisadi yapısı kalkınma politikası kapsamında incelenmektedir. Kalkınma politikalarında geleneksel yaklaşımın benimsediği temel prensip kişilerin ya da hane halklarının gelirinin arttırılması şeklindedir. Bu görüş, gelir düzeyinde meydana gelecek artışın tüketimi arttıracağı, böylece bireyin hayat kalitesini yükselteceği yönündedir. Çağdaş yaklaşımda ise kalkınmanın hedefi geliri arttırmanın yanı sıra refah olgusunun sağlanmasıdır(@Öndes:2019).Mutluluk kavramı, bireyin bir bütün olarak hayatından zevk alma düzeyi şeklinde ifade edilebilmektedir. Mutluluk, bireyin tüm yaşantısının bir değerlendirmesi olarak açıklanmaktadır. Tüm yaşamın değerlendirilmesi, kişilerin akıllarında şekillendirdikleri bütün unsurları içermektedir. Bireyin nasıl hissettiği, beklentilerini ne denli karşıladığı gibi tüm unsurlar, bu bağlamda değerlendirilmektedir (@vatansever:2017). Bundandır ki tarihten bu yana filozoflar mutluluğu aramış ve ortak bir hedef için çalışmışlardır. Yunan felsefesinde birçok düşünürün ilgisini çeken “mutluluk “kavramı için farklı tanımlamalar yapılmış ve mutluluğa ulaşma yolları araştırılmıştır. Bu dönem “mutluluk” için farklı tanımlamalar bulunmakla birlikte başta Aristo ve Plato olmak üzere birçok filozof “Eudaimonia” kelimesini kullanmışlardır. Eski Yunan medeniyetinde öze etki eden ruhsal durumu ifade eden bu kavram varlıklı, mutlu ve sağlıklı olma halini ifade etmektedir (@Veenhoven&Dumludağ:2015). 
+
+Mutluluk ve gelir arasındaki ilişkiyi ele alan kapsamlı çalışmalardan biri @Reder:1974 'in çalışmasıdır. @Reder:1974,"Nations and Households in Economic Growth" adlı kitabının “Does Economic Growth Improve the Human Lot? Some Empirical Evidence” isimli bölümünde mutluluk ve gelir arasındaki ilişkiyi ele aldığı çalışmasında farklı açılardan mutluluk ve gelir arasındaki ilişkiyi incelemiştir. @Reder:1974 14 ülkenin gelir ve mutluluk seviyelerine ilişkin verilerle bir karşılaştırma yapmıştır. Veriler nispeten gelişmiş ülkelerde mutluluk seviyesinin daha yüksek olduğunu göstermektedir.
+
+
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
